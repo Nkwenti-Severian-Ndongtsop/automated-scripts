@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "input the nuber to check"
+echo "input the number to check"
 read num
 if [[ "$num" =~ ^[0-9]+$ ]]; then
   echo -n "The $num is "
