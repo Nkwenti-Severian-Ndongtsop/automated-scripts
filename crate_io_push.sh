@@ -34,4 +34,6 @@ cargo publish --dry-run || { echo "❌ Dry run failed! Fix errors before publish
 
 # Publish the crate
 echo "🚀 Publishing to crates.io..."
-cargo publish || { echo "❌ Publish failed!";
+cargo publish || { echo "❌ Publish failed!"; }
+echo "✅ Successfully published $CRATE_DIR to crates.io!"
+echo "🔑 Remember to keep your Crates.io API token secure!"
